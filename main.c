@@ -40,7 +40,7 @@ void main() {
         if (GPIObits.GP2 == 1){    //pause not pressed, set VDP 50/60Hz pin LOW
             GPIObits.GP0 = 0; 
         }
-        if (GPIObits.GP2 == 0){    //pause not pressed, set VDP 50/60Hz pin HIGH
+        if (GPIObits.GP2 == 0){    //pause pressed, set VDP 50/60Hz pin HIGH
             GPIObits.GP0 = 1; 
         }
 
